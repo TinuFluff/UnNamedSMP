@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "unnamedsmp",
+  "version": "1.0.0",
+  "description": "",
+  "author": "@notcharliee",
+  "license": "ISC",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./styles/input.css -o ./styles/output.css --watch",
+    "typescript": "tsc --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.1.6"
+  }
+}

@@ -1,0 +1,12 @@
+html {
+    --scroll-behavior: smooth !important;
+    scroll-behavior: smooth !important;
+    scroll-padding-top: 2rem;
+}
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.glow\-blue { text-shadow: 0px 0px 20px #004C82; }
+.glow\-pink { text-shadow: 0px 0px 20px #603260; }
